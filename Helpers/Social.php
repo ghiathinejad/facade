@@ -1,3 +1,7 @@
 <?php
+namespace Src\Helpers;
 
-// TODO: Implement
+interface Social
+{
+    public static function share($url,$title);
+}
